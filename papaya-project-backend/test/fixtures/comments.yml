@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  staar_rating: 1
+  date: 2020-07-24 13:51:24
+  user: one
+  papaya: one
+
+two:
+  content: MyString
+  staar_rating: 1
+  date: 2020-07-24 13:51:24
+  user: two
+  papaya: two
