@@ -16,12 +16,10 @@ ActiveRecord::Schema.define(version: 2020_07_24_185124) do
     t.string "content"
     t.integer "star_rating"
     t.datetime "date"
-    t.integer "user_id", null: false
     t.integer "papaya_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["papaya_id"], name: "index_comments_on_papaya_id"
-    t.index ["user_id"], name: "index_comments_on_user_id"
   end
 
   create_table "orders", force: :cascade do |t|
@@ -29,12 +27,10 @@ ActiveRecord::Schema.define(version: 2020_07_24_185124) do
     t.string "recipient"
     t.string "recipient_address"
     t.boolean "anonymous"
-    t.integer "user_id", null: false
     t.integer "papaya_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["papaya_id"], name: "index_orders_on_papaya_id"
-    t.index ["user_id"], name: "index_orders_on_user_id"
   end
 
   create_table "papayas", force: :cascade do |t|
@@ -56,7 +52,5 @@ ActiveRecord::Schema.define(version: 2020_07_24_185124) do
   end
 
   add_foreign_key "comments", "papayas"
-  add_foreign_key "comments", "users"
   add_foreign_key "orders", "papayas"
-  add_foreign_key "orders", "users"
 end
