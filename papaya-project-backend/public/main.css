@@ -1,0 +1,14 @@
+body, html {
+    background-color: rgb(9, 94, 0);
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+#submit-button-message {
+    margin: 0 auto;
+    text-align:center;
+}

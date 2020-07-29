@@ -7,58 +7,53 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="main.css">
     <title>PapaYEAH!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a style="color: #009812; font-family: 'Inknut Antiqua', serif" class="navbar-brand" href="#">PapaYEAH!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a style="color: #009812; font-family: 'Inknut Antiqua', serif" class="nav-link" href="#">Papaya Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a style="color: #009812; font-family: 'Inknut Antiqua', serif" class="nav-link" href="#">Abouts Our Papayas</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+              <a style="color: #009812; font-family: 'Inknut Antiqua', serif" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Papaya Products</a>
+              <div style="color: #009812; font-family: 'Inknut Antiqua', serif" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a style="color: #009812; font-family: 'Inknut Antiqua', serif" class="dropdown-item" href="#">Payaya Face</a>
+                <a style="color: #009812; font-family: 'Inknut Antiqua', serif" class="dropdown-item" href="#">Papaya Message</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input style="color: #009812; font-family: 'Inknut Antiqua', serif" class="form-control mr-sm-2" type="search" placeholder="Search Papayas" aria-label="Search">
+            <button style="color: #009812; font-family: 'Inknut Antiqua', serif" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search Papayas</button>
           </form>
         </div>
-      </nav>
-      
-<!-- Carousel -->
+    </nav>
 
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<!-- Carousel -->
+<div style="background-image: url(/Users/franciscosierramunoz/Development/code/Mod_3_Project/papaya-project-backend/public/images/background_05.jpg); background-size: 100% 100%;">
+      <div id="carouselExampleControls" class="carousel slide; animate__animated animate__flip"" data-ride="carousel" style="width: 1500px; margin: 0 auto">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/Users/jodicroft/Desktop/Flatiron/Mod_3/Mod_3_Project/papaya-project-backend/public/images/papaya_Julio.png" class="d-block w-100" alt="">
+            <img src="/Users/franciscosierramunoz/Development/code/Mod_3_Project/papaya-project-backend/public/images/papaya_Nandita.png" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="/Users/jodicroft/Desktop/Flatiron/Mod_3/Mod_3_Project/papaya-project-backend/public/images/papaya_Spencer.png" class="d-block w-100" alt="">
+            <img src="/Users/franciscosierramunoz/Development/code/Mod_3_Project/papaya-project-backend/public/images/papaya_Frank.png" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="/Users/jodicroft/Desktop/Flatiron/Mod_3/Mod_3_Project/papaya-project-backend/public/images/papaya_Trey.png" class="d-block w-100" alt="">
+            <img src="/Users/franciscosierramunoz/Development/code/Mod_3_Project/papaya-project-backend/public/images/papaya_Antonio.png" class="d-block w-100" alt="">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -70,55 +65,103 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
-<!-- CARD -->
-      <div id='papaya-face-card' class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img id= "papaya-face-image" src="" class="card-img" alt="">
-            <button id="face-like-button" type="button" class="btn btn-outline-success"></button>
+    </div>
+<!-- JUMBOTRON -->
+<div class="jumbotron jumbotron-fluid" style='background-color: rgb(245, 139, 77)'>
+  <div class="container">
+    <h1 style="color: #003006; font-family: 'Inknut Antiqua', serif" class="display-4">Send an Anonymous Papaya to Anyone in the World!</h1>
+    <p style="color: #003006; font-family: 'Inknut Antiqua', serif" class="lead">PapaYEAH is the official papaya mail service provider! Our Anonymous papayas is the newest (and cutest) gag gifts on the market.</p>
+    <p style="color: #003006; font-family: 'Inknut Antiqua', serif" class="lead">Fully customizable with anyone's face or a custom message on the papaya!</p>  
+  </div>
+</div>
+<!-- CARD COLUMNS -->
+<br>
+<br>
+<div class="row">
+  <div class="col-sm-6">
+<!-- FACE CARD -->
+    <div id='papaya-face-card' class="card mb-3 bg-warning text-dark" style="max-width: 540px;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img id= "papaya-face-image" src="" class="card-img" alt="">
+          <button style="color: #003006; font-family: 'Inknut Antiqua', serif" id="face-like-button" type="button" class="btn btn-outline-success"></button>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h3 style="color: #003006; font-family: 'Inknut Antiqua', serif" class="large-card-title">Send A Face Papaya</h5>
+             <h5 style="color: #003006; font-family: 'Inknut Antiqua', serif" class="card-description">Put anyone's face on a papaya</h5>
+              <ul style="color: #003006; font-family: 'Inknut Antiqua', serif" class="card-text" id="face-comments-list"></ul>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="large-card-title">Send A Face Papaya</h5>
-              <h5 class="card-description">Put anyone's face on a papaya</h5>
-              <ul class="card-text" id="face-comments-list">
-            </ul>
-            </div>
-            <!-- FORM -->
-            <form id="face-comment-form">
-                <div class="form-group">
-                  <label for="face-papaya-comment">Leave a Comment:</label>
-                  <input type="comment" class="form-comment" id="face-papaya-comment" aria-describedby="emailHelp">
-                  <small id="emailHelp" class="form-text text-muted">Make sure you leave a comment!</small>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit Comment</button>
+          <!-- FACE FORM -->
+          <form id="face-comment-form">
+            <div class="form-group">
+                <label style="color: #003006; font-family: 'Inknut Antiqua', serif" for="face-papaya-comment">Leave a Comment:</label>
+                <input type="comment" class="form-comment" id="face-papaya-comment" aria-describedby="face-comment-help">
                 <br>
                 <br>
-              </form>
-          </div>
-        </div>
-      </div>
-
-      <div id='papaya-message-card' class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img id= "papaya-message-image" src="" class="card-img" alt="">
-            <button id="message-like-button" type="button" class="btn btn-outline-success"></button>
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="large-card-title">Send A Message Papaya</h5>
-              <h5 class="card-description">Put any message on a papaya</h5>
-              <ul class="card-text" id="message-comments-list">
-            </ul>
+                <select class="custom-select custom-select-sm" id="face-stars">
+                  <option selected>Papaya Stars</option>
+                  <option value="1">One Papaya Star</option>
+                  <option value="2">Two Papaya Star</option>
+                  <option value="3">Three Papaya Star</option>
+                  <option value="4">Four Papaya Star</option>
+                  <option value="5">Five Papaya Star</option>
+                </select>
+                <br>
+                <br>
+                <small style="color: #003006; font-family: 'Inknut Antiqua', serif" id="face-comment-help" class="form-text text-muted">Make sure you leave a comment!</small>
             </div>
-          </div>
+              <button style="color: #003006; font-family: 'Inknut Antiqua', serif" type="submit" class="btn btn-outline-success">Submit Comment</button>
+              <br>
+              <br>
+          </form>
         </div>
       </div>
+    </div>
 
-
-  
+  </div>
+  <div class="col-sm-6">
+  <!-- MESSAGE CARD -->
+    <div id='papaya-message-card' class="card mb-3 bg-warning text-dark" style="max-width: 540px;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img id= "papaya-message-image" src="" class="card-img" alt="">
+          <button style="color: #003006; font-family: 'Inknut Antiqua', serif" id="message-like-button" type="button" class="btn btn-outline-success"></button>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h3 style="color: #003006; font-family: 'Inknut Antiqua', serif" class="large-card-title">Send A Message Papaya</h5>
+            <h5 style="color: #003006; font-family: 'Inknut Antiqua', serif" class="card-description">Put any message on a papaya</h5>
+            <ul style="color: #003006; font-family: 'Inknut Antiqua', serif" class="card-text" id="message-comments-list"></ul>
+          </div>
+          <!-- MESSAGE FORM -->
+          <form id="message-comment-form">
+            <div class="form-group"></div>
+                <label style="color: #003006; font-family: 'Inknut Antiqua', serif" for="message-papaya-comment">Leave a Comment:</label>
+                <input type="comment" class="form-comment" id="message-papaya-comment" aria-describedby="message-comment-help">
+                <br>
+                <br>
+                <select class="custom-select custom-select-sm" id="message-stars">
+                  <option selected>Papaya Stars</option>
+                  <option value="1">One Papaya Star</option>
+                  <option value="2">Two Papaya Star</option>
+                  <option value="3">Three Papaya Star</option>
+                  <option value="4">Four Papaya Star</option>
+                  <option value="5">Five Papaya Star</option>
+                </select>
+                <br>
+                <br>
+                <small style="color: #003006; font-family: 'Inknut Antiqua', serif" id="message-comment-help" class="form-text text-muted">Make sure you leave a comment!</small>
+            </div>
+            <button style="color: #003006; font-family: 'Inknut Antiqua', serif" type="submit" class="btn btn-outline-success" id="submit-button-message">Submit Comment</button>
+              <br>
+              <br>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -128,3 +171,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
