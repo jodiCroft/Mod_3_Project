@@ -1,5 +1,11 @@
+* {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+
 body, html {
     background-color: rgb(9, 94, 0);
+
+
 }
 
 .card {
@@ -11,4 +17,45 @@ body, html {
 #submit-button-message {
     margin: 0 auto;
     text-align:center;
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
 }
+
+#message-like-button {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+
+#submit-button-face {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+
+#face-like-button {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+
+#face-carousel-button-next {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+
+#face-carousel-button-previous {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+
+#papaya-nav {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+
+#navbarDropdown {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+
+#navbar-search-button {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+#message-carousel-button-next {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+
+#message-carousel-button-previous {
+    cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+}
+

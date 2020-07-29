@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-papaya_face = Papaya.create(name: "face_papaya", image: "/Users/franciscosierramunoz/Development/code/Mod_3_Project/papaya-project-backend/public/images/papaya_Trey.png", likes: 1, description: "Add your own image to a papaya!" )
-papaya_message = Papaya.create(name: "custom_message", image: "/Users/franciscosierramunoz/Development/code/Mod_3_Project/papaya-project-backend/public/images/message_papaya.png", likes: 2, description: "Add your own custom message to a papaya!")
+papaya_face = Papaya.create(name: "face_papaya", image: "https://i.imgur.com/Xu4HK0N.png", likes: 1, description: "Add your own image to a papaya!" )
+papaya_message = Papaya.create(name: "custom_message", image: "https://i.imgur.com/H2wzYv0.png", likes: 2, description: "Add your own custom message to a papaya!")
 
 user_one = User.create(name: "Jodi Croft", username: "jCroft")
 user_two = User.create(name: "Frank Sierra", username: "Frank_Papaya")
