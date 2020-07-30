@@ -45,7 +45,7 @@
     </nav>
 
 <!-- Carousel -->
-<div style="background-image: url(https://i.imgur.com/nx0UBxe.jpg); background-size: 100% 100%;">
+<div style="background-image: url(https://i.imgur.com/nx0UBxe.jpg); background-size: cover;">
   <div id="carouselExampleControls" class="carousel slide; animate__animated animate__flip" data-ride="carousel" style="width: 1200px; margin: 0 auto">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -115,7 +115,7 @@
 </div>
 <!-- JUMBOTRON -->
 <div class="jumbotron jumbotron-fluid" style='background-color: rgb(245, 139, 77)'>
-  <div class="container">
+  <div class="container" id="jumbo-text-container">
     <h1 style="color: #003006; font-family: 'Inknut Antiqua', serif" class="display-4">Send an Anonymous Papaya to Anyone in the World!</h1>
     <p style="color: #003006; font-family: 'Inknut Antiqua', serif" class="lead">PapaYEAH is the official papaya mail service provider! Our Anonymous papayas is the newest (and cutest) gag gifts on the market.</p>
     <p style="color: #003006; font-family: 'Inknut Antiqua', serif" class="lead">Fully customizable with anyone's face or a custom message on the papaya!</p>  
@@ -204,15 +204,18 @@
   </div>
   <div class="col-sm-6">
   <!-- MESSAGE CARD -->
-    <div id='papaya-message-card' class="card mb-3 bg-warning text-dark" style="max-width: 800px; border-radius: 20px; padding: 20px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
-      <div class="row no-gutters">
-        <div class="col-md-4">
+  <div class="card-header">
+    <h3 style="color: #003006; font-family: 'Inknut Antiqua', serif" class="large-card-title">Send A Message Papaya</h5>
+  </div>
+    <div id='papaya-message-card' class="card mb-3 bg-warning text-dark" style="max-width: 800px; border-radius: 20px; padding: 20px;">
+      <div class="card-column-container">
+        <div class="left-column">
           <img id= "papaya-message-image" src="" class="card-img" alt="" style="width: 350px; padding: 10px;">
           <button style="color: #003006; font-family: 'Inknut Antiqua', serif" id="message-like-button" type="button" class="btn btn-outline-success"></button>
         </div>
-        <div class="col-md-8">
+        <div class="right-column">
           <div class="card-body">
-            <h3 style="color: #003006; font-family: 'Inknut Antiqua', serif" class="large-card-title">Send A Message Papaya</h5>
+
             <h5 style="color: #003006; font-family: 'Inknut Antiqua', serif" class="card-description">Put any message on a papaya</h5>
             <ul style="color: #003006; font-family: 'Inknut Antiqua', serif; list-style: none;" class="card-text" id="message-comments-list"></ul>
           </div>

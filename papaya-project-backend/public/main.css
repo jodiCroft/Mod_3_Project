@@ -15,9 +15,48 @@ body, html {
 }
 
 .card-header {
-    width: 100px;
-    height: 100px;
-    background-color: orange;
+    width: 1000px;
+    height: 200px;
+    border-radius: 20px !important;
+    z-index: 5;
+    position: relative;
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.card-column-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-column {
+    text-align: center;
+}
+
+.card-body {
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.jumbotron jumbotron-fluid {
+    display: flex;
+    align-items: center;
+}
+
+#jumbo-text-container {
+    text-align: center;
+}
+
+
+
+#papaya-message-card {
+    margin-top: -20px;
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
 }
 
 #submit-button-message {
@@ -28,6 +67,7 @@ body, html {
 
 #message-like-button {
     cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+    margin-top: 30px;
 }
 
 #submit-button-face {
