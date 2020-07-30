@@ -11,21 +11,32 @@ body, html {
     margin-bottom: 10px; /* Added */
 }
 
+.large-card-title {
+    font-size: 60px;
+}
+
+.card-description {
+    font-size: 25px;
+    font-style: italic;
+}
+
 .card-header {
-    width: 1000px;
+    width: 900px;
     height: 200px;
     border-radius: 20px !important;
+    text-align: center;
     z-index: 5;
     position: relative;
     -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
     -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
     box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: rgb(238,201,78);
+    background: radial-gradient(circle, rgba(238,201,78,1) 19%, rgba(240,133,18,1) 90%);
 }
 
 .card-column-container {
     display: grid;
+    padding-top: 50px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -33,9 +44,16 @@ body, html {
     text-align: center;
 }
 
+.card-body::-webkit-scrollbar-track-piece {
+    background-color: rgba(0,0,0,0) !important;
+    scrollbar-color: rgb(168, 50, 50) rgb(235, 203, 24) !important;
+}
+
 .card-body {
     max-height: 300px;
-    overflow: scroll;
+    max-width: 400px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(168, 50, 50) rgb(235, 203, 24) !important;
 }
 
 .jumbotron jumbotron-fluid {
@@ -46,10 +64,35 @@ body, html {
     box-shadow: 42px 31px 64px -45px rgba(0,0,0,0.54);
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 #jumbo-text-container {
     text-align: center;
 }
 
+.card mb-3 bg-warning text-dark {
+    margin-top: -20px;
+    -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
+}
+
+#papaya-face-card {
+    margin-top: -20px !important;
+    -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38) !important;
+    -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38) !important;
+    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38) !important;
+}
 
 #papaya-message-card {
     margin-top: -20px;
