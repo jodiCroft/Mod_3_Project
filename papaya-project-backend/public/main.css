@@ -4,10 +4,7 @@
 
 body, html {
     background-color: rgb(222, 242, 174);
-    text-shadow: 0 0 1px #fa6c00a8, 0 0 2px #00e122;
-
 }
-
 .card {
     margin: 0 auto; /* Added */
     float: none; /* Added */
@@ -20,9 +17,9 @@ body, html {
     border-radius: 20px !important;
     z-index: 5;
     position: relative;
-    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
@@ -44,6 +41,9 @@ body, html {
 .jumbotron jumbotron-fluid {
     display: flex;
     align-items: center;
+    -webkit-box-shadow: 42px 31px 64px -45px rgba(0,0,0,0.54);
+    -moz-box-shadow: 42px 31px 64px -45px rgba(0,0,0,0.54);
+    box-shadow: 42px 31px 64px -45px rgba(0,0,0,0.54);
 }
 
 #jumbo-text-container {
@@ -51,12 +51,11 @@ body, html {
 }
 
 
-
 #papaya-message-card {
     margin-top: -20px;
-    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.38);
 }
 
 #submit-button-message {
@@ -88,6 +87,7 @@ body, html {
 
 #papaya-nav {
     cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
+
 }
 
 #navbarDropdown {
