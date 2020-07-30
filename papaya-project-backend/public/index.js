@@ -5,6 +5,7 @@ const COMMENT_URL = "http://localhost:3000/comments"
 
 document.addEventListener("DOMContentLoaded", () => {
     getPapayas()
+
 })
 
 function getPapayas(){

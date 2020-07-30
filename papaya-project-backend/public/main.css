@@ -3,8 +3,8 @@
 }
 
 body, html {
-    background-color: rgb(9, 94, 0);
-
+    background-color: rgb(222, 242, 174);
+    text-shadow: 0 0 1px #fa6c00a8, 0 0 2px #00e122;
 
 }
 
@@ -12,6 +12,12 @@ body, html {
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
+}
+
+.card-header {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
 }
 
 #submit-button-message {
@@ -58,4 +64,20 @@ body, html {
 #message-carousel-button-previous {
     cursor: url(https://i.imgur.com/FvST5Ca.png), auto;
 }
+
+#song {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 300px; 
+    height: 5vh;
+    box-shadow: 9px 9px 29px rgba(255, 153, 0, 0.4);
+    border-radius: 90px;
+    transform: scale(1.05);
+    filter: sepia(100%) saturate(400%) grayscale(0) contrast(200%) hue-rotate(46deg) invert(12%);
+}
+
+:root {
+    --animate-duration: 2000ms;
+    --animate-delay: 1s;
+  }
 
