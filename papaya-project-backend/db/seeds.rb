@@ -13,7 +13,7 @@ papaya_message = Papaya.create(name: "custom_message", image: "https://i.imgur.c
 user_one = User.create(name: "Jodi Croft", username: "jCroft")
 user_two = User.create(name: "Frank Sierra", username: "Frank_Papaya")
 
-comment_01 = Comment.create(content: 'What a nice papaya!', star_rating: 5, papaya_id: papaya_face.id)
-comment_02 = Comment.create(content: 'This papaya has a face!', star_rating: 2, papaya_id: papaya_face.id)
-comment_03 = Comment.create(content: 'This papaya has a message!', star_rating: 4, papaya_id: papaya_message.id)
-comment_04 = Comment.create(content: 'This papaya is awful', star_rating: 1, papaya_id: papaya_message.id)
+comment_01 = Comment.create(content: 'OMG this was such a funny gift to receive!', star_rating: 5, papaya_id: papaya_face.id)
+comment_02 = Comment.create(content: 'This random papaya got delivered to my door, so I googled it and this website came up....I hate papayas and I am still trying to figure out who sent it to me!', star_rating: 2, papaya_id: papaya_face.id)
+comment_03 = Comment.create(content: 'Haha I always say Lets find out! so it make me laugh when I got this papaya delievered to my door!', star_rating: 4, papaya_id: papaya_message.id)
+comment_04 = Comment.create(content: 'If I could leave zero stars, I would! I am allergic to papayas....who would send this.', star_rating: 1, papaya_id: papaya_message.id)
